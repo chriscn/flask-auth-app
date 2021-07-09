@@ -14,21 +14,21 @@
         <form method="POST" action="/login">
             <div class="field">
                 <div class="control">
-                    <input class="input is-large" type="email" name="email" placeholder="Your Email" autofocus="">
+                    <input class="input" type="email" name="email" placeholder="Your Email" autofocus="">
                 </div>
             </div>
             <div class="field">
                 <div class="control">
-                    <input class="input is-large" type="password" name="password" placeholder="Your Password">
+                    <input class="input" type="password" name="password" placeholder="Your Password">
                 </div>
             </div>
             <div class="field">
                 <label class="checkbox">
                     <input type="checkbox">
-                    Remember me
+                    Remember Me?
                 </label>
             </div>
-            <button class="button is-block is-info is-fullwidth is-medium">Login</button>
+            <button class="button is-block is-info is-fullwidth">Login</button>
             <span class="tag is-medium mt-4">
                 <a href="{{ url_for('auth.signup') }}">Signup Instead?</a>
             </span>
