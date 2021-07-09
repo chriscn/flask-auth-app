@@ -11,7 +11,7 @@
       <section class="hero is-info p-4 has-text-centered">
           <h1 class="title">Flask Authentication Example</h1>
       </section>
-      <div class="container">
+      <div class="content m-4 has-text-centered">
         <div class="columns">
           <div class="column is-half">
             <a href="{{ url_for('main.index') }}" class="navbar-item">
@@ -46,7 +46,7 @@
           {% endif %}
         </div>
       </div>
-      <div class="container has-text-centered p-4">
+      <div class="container p-4">
         {% block content %}
         {% endblock %}
       </div>
